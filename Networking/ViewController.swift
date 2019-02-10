@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         configureSearchController()
-        
+        //add lines
         viewModel.data
             .debug()
             .drive(tableView.rx.items(cellIdentifier: "Cell")) { any, repository, cell in
