@@ -19,13 +19,22 @@ class ViewController: UIViewController {
         configureSearchController()
         
         viewModel.data
-            .drive(tableView.rx.items(cellIdentifier: "Cell")) { _, repository, cell in
+            .debug()
+            .drive(tableView.rx.items(cellIdentifier: "Cell")) { any, repository, cell in
                 cell.textLabel?.text = repository.repoName
                 cell.detailTextLabel?.text = repository.repoURL
             }
-            .addDisposableTo(disposeBag)
+            .disposed(by: disposeBag)
         
+        searchBar.rx.text.orEmpty
+        .debug()
+        .bind(to: viewModel.searchText)
+        .disposed(by: disposeBag)
         
+//        viewModel.data.asDriver()
+//        .map({"\( $0.count) Repositories"})
+//        .drive(navigationItem.rx.title)
+//        .disposed(by: disposeBag)
     }
     
     func configureSearchController() {
@@ -36,4 +45,8 @@ class ViewController: UIViewController {
         tableView.tableHeaderView = searchController.searchBar
         definesPresentationContext = true
     }
+    
+
+        
+    
 }
