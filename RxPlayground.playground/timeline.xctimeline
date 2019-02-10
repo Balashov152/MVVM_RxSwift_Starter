@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sergeybalashov/Desktop/MVVM_RxSwift_Starter/RxPlayground.playground#CharacterRangeLen=18&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=0&amp;EndingLineNumber=5&amp;StartingColumnNumber=0&amp;StartingLineNumber=1&amp;Timestamp=570972179.331694"
+         lockedSize = "{273, 167}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sergeybalashov/Desktop/MVVM_RxSwift_Starter/RxPlayground.playground#CharacterRangeLen=18&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=0&amp;EndingLineNumber=5&amp;StartingColumnNumber=0&amp;StartingLineNumber=1&amp;Timestamp=570972179.3318141"
+         lockedSize = "{246, 157}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sergeybalashov/Desktop/MVVM_RxSwift_Starter/RxPlayground.playground#CharacterRangeLen=18&amp;CharacterRangeLoc=13&amp;EndingColumnNumber=0&amp;EndingLineNumber=5&amp;StartingColumnNumber=0&amp;StartingLineNumber=1&amp;Timestamp=570972179.331912"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>
