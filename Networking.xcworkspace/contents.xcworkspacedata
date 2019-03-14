@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RxPlayground.playground">
+      location = "group:RxTest.playground">
    </FileRef>
    <FileRef
       location = "group:Networking.xcodeproj">
